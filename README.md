@@ -1,1 +1,1 @@
-# hand_sumo_game
+# HandPunchGame
