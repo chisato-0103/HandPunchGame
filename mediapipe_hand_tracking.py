@@ -14,7 +14,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 # カメラキャプチャの開始
-cap = cv2.VideoCapture(2) # 0は通常内蔵カメラ
+cap = cv2.VideoCapture(1) # 0は通常内蔵カメラ
 
 while cap.isOpened():
     success, image = cap.read()
